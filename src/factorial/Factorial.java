@@ -12,25 +12,23 @@ package factorial;
 public class Factorial {
 
     public static void main(String[] args) {
-        
+        //Cambiamos y actualizamos el nombre de las variables junto con el formateo del código
 
-    int j;
-    int f;
+        int valor1;
+        int valor2;
 
-  
-   j = 8;    
-   
+        valor1 = 8;
 
-    
-   int i;
-   if (j == 0)
-f = 1;
-   else
-   {
-f = 1;
-for (i = j; i >= 1; i--)
-{
-    f = f * i;
+        int i;
+        if (valor1 == 0) {
+            valor2 = 1;
+        } else {
+            valor2 = 1;
+        }
+        for (i = valor1; i >= 1; i--) {
+            valor2 = valor2 * i;
+        }
+
     }
-    
-   }
+
+}
